@@ -1,0 +1,207 @@
+/* Estilo geral */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f7f9;
+  color: #333;
+}
+/*Estilo e posição do main*/
+main {
+  position: absolute;
+  text-align: center;
+  width: 175vh;
+  top: 35vh;
+  font-weight: 800;
+}
+/* Cabeçalho */
+header {
+  background-color: #4a90e2;
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+}
+/* Rodapé */
+footer {
+  position: absolute;
+  background-color: #333;
+  top: 80vh;
+  width: 177.9vh;
+  color: white;
+  text-align: center;
+}
+/*Titulo do tópico experiencias*/
+.Titulo {
+  position: absolute;
+  left: 13vh;
+  top: -10vh;
+  color: #4a90e2;
+}
+/*Conteudo e Borda do tópico experiencias*/
+.Conteiner1 {
+  position: absolute;
+  padding: 15px;
+  color: #333;
+  border: 3px solid #333;
+  border-radius: 15px;
+  width: 140vh;
+  height: 15vh;
+  top: 2vh;
+  left: 10%;
+}
+/*Formatação do titulo Sobre*/
+#Sobre {
+  position: absolute;
+  left: 13vh;
+  top: 25vh;
+  color: #4a90e2;
+}
+/*Conteudo e Borda do tópico Sobre*/
+.Conteiner2 {
+  position: absolute;
+  padding: 10px;
+  padding-bottom: 5px;
+  color: #333;
+  border: 3px solid #333;
+  border-radius: 15px;
+  width: 140vh;
+  height: 15vh;
+  top: 37vh;
+  left: 10%;
+}
+/*Topico projetos*/
+#Projetos {
+  position: absolute;
+  top: 58vh;
+  left: 600px;
+}
+
+/*Conteudo e Borda do tópico Projetos*/
+.Card1 {
+  justify-content: center;
+  position: absolute;
+  display: flex;
+  color: #333;
+  border: 3px solid #333;
+  border-radius: 15px;
+  width: 401px;
+  height: 50vh;
+  top: 72vh;
+  left: 3vh;
+}
+.Card1:hover {
+  transform: scale(1.02);
+  transition: all 1s ease-in-out;
+}
+.Card1 {
+  transition: 1s ease-in-out;
+}
+.Projeto1IMG {
+  position: absolute;
+  width: 401px;
+  height: 200px;
+  border-radius: 11.5px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.ParagrafoProjetos {
+  position: absolute;
+  top: 28vh;
+}
+/*Ancora do tópico projetos*/
+.BTNProjeto {
+  font-weight: bold;
+  display: flex;
+  background-color: #4394e5 ;
+  color: rgb(255, 255, 255);
+  width: 380px;
+  height: 5vh;
+  border-radius: 1rem;
+  border: 1px;
+  font-size: medium;
+  margin: 10px;
+  transition: transform 0.1s ease-in-out;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  z-index: +1;
+  position: absolute;
+  bottom: 1vh;
+}
+/*Ancora do tópico projetos*/
+.BTNProjeto:active {
+  transform: scale(0.97);
+  transition: all 0.1s ease-in-out;
+}
+.Card2 {
+  justify-content: center;
+  position: absolute;
+  display: flex;
+  color: #333;
+  border: 3px solid #333;
+  border-radius: 15px;
+  width: 401px;
+  height: 50vh;
+  top: 72vh;
+  left: 62vh;
+}
+.Card2:hover {
+  transform: scale(1.02);
+  transition: all 1s ease-in-out;
+}
+.Card2 {
+  transition: 1s ease-in-out;
+}
+.Card3 {
+  justify-content: center;
+  position: absolute;
+  display: flex;
+  color: #333;
+  border: 3px solid #333;
+  border-radius: 15px;
+  width: 401px;
+  height: 50vh;
+  top: 72vh;
+  left: 120vh;
+}
+.Card3:hover {
+  transform: scale(1.02);
+  transition: all 1s ease-in-out;
+}
+Card3 {
+  transition: 1s ease-in-out;
+}
+#Contato {
+  position: absolute;
+  left: 570px;
+  top: 135vh;
+}
+.Email {
+  position: absolute;
+  display: flex;
+  width: 50vh;
+  bottom: 1vh;
+  height: 5vh;
+  background-color: #4394e5;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  z-index: +1;
+  border-radius: 15px;
+  border: none;
+  color: #f4f7f9;
+  font-weight: bold;
+  margin: 10px;
+}
+#ContatoCard {
+  justify-content: center;
+  position: absolute;
+  display: flex;
+  color: #333;
+  border: 3px solid #333;
+  border-radius: 15px;
+  width: 401px;
+  height: 20vh;
+  top: 155vh;
+  left: 415px;
+}
